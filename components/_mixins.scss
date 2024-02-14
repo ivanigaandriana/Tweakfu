@@ -1,0 +1,11 @@
+@mixin font($fs,$fw,$lh){
+    font-size:$fs;
+    font-weight:$fw;
+    line-height:$lh;
+}
+@mixin box($w , $h) {
+    width: $w;
+    height: $h;
+
+}
+$fontFamily:'Inter', sans-serif;
